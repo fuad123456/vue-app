@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-cli-service build",
+    "build": "vue-tsc && vite build",
     "preview": "vite preview"
+	
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
